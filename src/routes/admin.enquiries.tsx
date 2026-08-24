@@ -4,7 +4,7 @@ import { AdminHead, MiniBtn } from "@/components/site/admin-ui";
 import { useSite } from "@/store/site-store";
 
 export const Route = createFileRoute("/admin/enquiries")({
-  component: AdminEnquiries;
+  component: AdminEnquiries,
 });
 
 function AdminEnquiries() {
